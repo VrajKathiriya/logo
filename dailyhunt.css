@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dailyhunt
+{
+    height: 500px;
+    width: 500px;
+    /* background-color: pink; */
+    position: relative;
+}
+.c1
+{
+    height: 200px;
+    width: 200px;
+    background-color:#f15c19;
+    border-top-left-radius:400px 550px;
+    border-top-right-radius: 350px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 550px 400px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transform: rotate(-90deg);
+}
+.c2
+{
+    height: 200px;
+    width: 200px;
+    background-color:#81c240;
+    border-top-left-radius:400px 550px;
+    border-top-right-radius: 350px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 550px 400px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.c3
+{
+    height: 200px;
+    width: 200px;
+    background-color:#fbc707;
+    border-top-left-radius:400px 550px;
+    border-top-right-radius: 350px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 550px 400px;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 30px;
+    bottom: 30px;
+}
+.c4
+{
+    height: 200px;
+    width: 200px;
+    background-color:#189ad7;
+    border-top-left-radius:400px 550px;
+    border-top-right-radius: 350px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 550px 400px;
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 30px;
+    right: 30px;
+}
+@media only screen and (max-width:500px)
+{
+    .dailyhunt
+    {
+        height: 250px;
+        width: 250px;
+    }   
+    .c1
+    {
+        height: 100px;
+        width: 100px;
+        border-top-left-radius:200px 275px;
+        border-top-right-radius: 175px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 275px 200px;
+        top: 15px;
+        left: 15px;
+    } 
+    .c2
+    {
+        height: 100px;
+        width: 100px;
+        background-color:#81c240;
+        border-top-left-radius:200px 275px;
+        border-top-right-radius: 175px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 275px 200px;
+        right: 15px;
+        top: 15px;
+    }
+    .c3
+    {
+        height: 100px;
+        width: 100px;
+        background-color:#fbc707;
+        border-top-left-radius:200px 275px;
+        border-top-right-radius: 175px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 275px 200px;
+        left: 15px;
+        bottom: 15px;
+    }
+    .c4
+    {
+        height: 100px;
+        width: 100px;
+        background-color:#189ad7;
+        border-top-left-radius:200px 275px;
+        border-top-right-radius: 175px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 275px 200px;
+        bottom: 15px;
+        right: 15px;
+    }
+}

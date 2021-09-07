@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figma
+{
+    height: 500px;
+    width: 500px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.b1,.b2,.b3
+{
+    display: flex;
+}
+.c1,.c2,.c3,.c4,.c5,.c6
+{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.c1
+{
+    background-color:#e04a34;
+}
+.c3
+{
+    background-color: #a126d6;
+}
+.c5
+{
+    background-color:#18d457 ;
+}
+.c2
+{
+    background-color: #f76c56;
+}
+.c4
+{
+    background-color: #1da7d1;
+}
+.c1,.c3
+{
+    border-radius: 50% 0 0 50%;
+}
+.c5
+{
+    border-radius: 50% 0 50% 50%;
+}
+.c2
+
+{
+    border-radius: 0 50% 50% 0;
+}
+.c6
+{
+    opacity: 0;
+}
+@media only screen and (max-width:500px)
+{
+    .figma
+    {
+        height: 250px;
+        width: 250px;
+    }
+    .c1,.c2,.c3,.c4,.c5,.c6
+    {
+        height: 70px;
+        width: 70px;
+    }
+}
